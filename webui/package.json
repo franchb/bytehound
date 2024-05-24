@@ -6,38 +6,38 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@babel/core": "^7.12.0",
-    "@babel/preset-env": "^7.12.0",
-    "@babel/preset-react": "^7.12.0",
-    "parcel": "^2.0.0",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "@parcel/core": "^2.12.0",
+    "@popperjs/core": "^2.11.8",
+    "parcel": "^2.12.0",
     "process": "^0.11.10"
   },
   "dependencies": {
-    "bootstrap": "^4.1.1",
-    "bootswatch": "^4.1.1",
-    "classnames": "^2.3.1",
-    "dygraphs": "^2.1.0",
-    "feather-icons": "^4.7.3",
+    "bootstrap": "^5.3.3",
+    "bootswatch": "^5.3.3",
+    "classnames": "^2.5.1",
+    "dygraphs": "^2.2.1",
+    "feather-icons": "^4.29.2",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.2.1",
-    "lodash": "^4.17.10",
-    "memoize-one": "^4.0.0",
-    "popper.js": "^1.14.3",
-    "prop-types": "^15.0.0",
-    "react": ">= 16.5",
-    "react-ace": "^9.4.1",
-    "react-contextmenu": "^2.11.0",
-    "react-dom": "^16.5.0",
-    "react-router-dom": "^5.2.0",
-    "react-table": "^6.8.6",
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21",
+    "memoize-one": "^6.0.0",
+    "popper.js": "^1.16.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-ace": "^11.0.1",
+    "react-contextmenu": "^2.14.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "react-table": "^7.8.0",
     "reactdom": "^2.0.0",
-    "reactstrap": "^6.2.0"
-  },
-  "optionalDependencies": {
-    "@parcel/css-linux-arm64-gnu": "^1.13.1"
+    "reactstrap": "^9.2.2"
   },
   "scripts": {
     "start": "parcel ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "packageManager": "yarn@4.2.2"
 }

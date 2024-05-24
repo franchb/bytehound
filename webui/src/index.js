@@ -1,7 +1,7 @@
 import "./import-bootstrap.js";
 import "bootswatch/dist/spacelab/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
-import "react-table/react-table.css";
+//import "react-table/react-table.css";
 
 import React from "react";
 import ReactDOM from "react-dom";
